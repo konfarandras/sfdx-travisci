@@ -24,3 +24,4 @@ script:
 - sfdx force:apex:test:run -u ciorg --wait 10
 - sfdx force:org:list
 - sfdx force:limits:api:display -u HubOrg
+- sfdx force:org:delete -p -u ciorg 
