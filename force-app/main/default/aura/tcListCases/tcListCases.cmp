@@ -1,0 +1,19 @@
+<aura:component controller="TCService">
+
+    <aura:attribute name="list" type="object[]"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+
+    <h1>Cases</h1>
+
+    <table>
+    <aura:iteration items="{!v.list}" var="case" indexVar='listRow'>
+        <tr>
+            <td>{!case.Name}</td>
+            <td>{!case.Contact_Email__c}</td>
+        </tr>
+    </aura:iteration>
+    </table>
+
+    <button onclick="{!c.add}">Add</button>
+    
+</aura:component>	
