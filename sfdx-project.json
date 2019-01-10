@@ -2,19 +2,19 @@
     "packageDirectories": [
         {
             "path": "force-app",
-            "default": true,
-            "package": "testpackage",
-            "versionName": "ver 1.1",
-            "versionNumber": "1.1.0.NEXT"
+            "package": "teltestpackage",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.3.NEXT",
+            "default": true
         }
     ],
     "namespace": "",
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "40.0",
     "packageAliases": {
-        "testpackage": "0Ho0N000000CaSySAK",
-        "testpackage@1.0.0-1": "04t0N000001E1dWQAS",
-        "testpackage@1.0.0-2": "04t0N000001E1dbQAC",
-        "testpackage@1.1.0-1": "04t0N000001E1dgQAC"
+        "teltestpackage": "0Ho1p000000GmaYCAS",
+        "teltestpackage@0.1.2-1": "04t1p000000kby5AAA",
+        "teltestpackage@0.1.2-2": "04t1p000000kbyAAAQ",
+        "teltestpackage@0.1.3-1": "04t1p000000kbyFAAQ"
     }
 }

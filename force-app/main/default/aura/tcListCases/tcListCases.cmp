@@ -10,6 +10,7 @@
         <tr>
             <td>{!case.Name}</td>
             <td>{!case.Contact_Email__c}</td>
+            <td>aafsafas</td>
         </tr>
     </aura:iteration>
     </table>
